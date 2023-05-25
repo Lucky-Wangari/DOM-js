@@ -18,6 +18,12 @@ var newFruit = document.createElement("li");
 newFruit.textContent = "Oranges";
 fruitsList.appendChild(newFruit);
 
+//Add one more vegetable to the vegetables LIST
+var vegieList = document.getElementById('vegieList');
+var newVegetable = document.createElement('li');
+newVegetable.textContent = 'Carrots';
+vegList.appendChild(newVegetable);
+
 
 
 
